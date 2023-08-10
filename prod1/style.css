@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@400;500;600&display=swap');
+
+
+body {
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+    background-color: #5e6265; 
+    padding: 100px 0;
+}
+
+h3 {
+
+    font-size: 35px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 20px;
+}
+
+h4 {
+    font-size: 25px;
+    font-weight: bold;
+}
+.conteiner {
+    width: 1500px;
+    min-height: 500px;
+    border: 15px solid white;
+    margin: 0 auto;
+    background: white;
+}
+
+
+.headers {
+    display: flex;
+    height: 650px;
+}
+
+.title-front-end {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-size: 45px;
+    font-weight: bold;
+    background: url(https://i.pinimg.com/originals/08/d9/81/08d98165e8b4c12d9012082c346a58f4.jpg) no-repeat center / cover;
+    color: #fff;
+}
+
+
+.navigations {
+    font-size: 25px;
+
+}
+
+
+.navigations ul {
+    display: flex;
+    background-color: grey;
+    margin: 5px 0;
+}
+
+
+
+.navigations li a {
+    padding: 25px;
+    display: flex;
+    text-decoration: 0;
+    color: white;
+    font-weight: bold;
+    border-right: 1px solid rgb(215, 210, 210);
+    transition: all 0.3s ease;
+}
+
+
+.navigations li a:hover {
+    background-color: rgb(65, 64, 64);
+}
+
+
+.content-wrapper {
+    display: flex;
+}
+
+.content {
+    width: 70%;
+    padding: 25px;
+}
+
+
+.content p {
+    margin: 9px 0px;
+}
+
+.sidebar {
+    width: 30%;
+    padding: 25px;
+    font-size: 25px;
+    
+}
+
+
+.Skills {
+    font-size: 20px;
+}
+
+
+.Skills li {
+    margin: 10px 0px;
+    transition: all .5s ease;
+}
+
+.Skills li:hover {
+    transform: translateX(15px);
+}
+
+
+.enders {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    border: 5px solid white;
+    background-color: gray;
+    padding: 5px;    
+}
+
